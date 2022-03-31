@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hoofdmenu</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+   <canvas id="tekst"></canvas>
+    <main>
+
+
+        <section>
+            <video width="900" id='video' autoplay>
+              <source src="images/videos/Def_Laughing_Skull.mp4" type="video/mp4">
+
+              <!--<source src="img/videos/.mp4" type="video/mp4">-->
+
+              <source src="images/videos/Skull_Color.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <div>
+            <img src="images/icons/Def_MovingIcon1.gif" alt="Laugh" id="button_laugh">
+
+            <img src="images/icons/Def_MovingIcon2.gif" alt="Scroll" id="button_scroll">
+
+            <img src="images/icons/Def_MovingIcon3.gif" alt="Error" id="button_error">
+
+        </div>
+
+        <audio id="laugh">
+            <source src="audio/Laughing_Sound.wav" type="audio/wav">
+        </audio>
+
+        <audio id="scroll">
+            <source src="audio/Scrolling_Text.wav" type="audio/wav">
+        </audio>
+
+        <audio id="error">
+            <source src="audio/Error_Message.wav" type="audio/wav">
+        </audio>
+
+    </main>
+</body>
+
+<script src="script/script.js"></script>
+
+</html>
